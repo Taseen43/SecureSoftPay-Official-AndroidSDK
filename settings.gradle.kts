@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "SecureSoftPaySDKProject"
 include(":app")
-include(":secure-soft-pay-sdk")
+include(":SecureSoftPay-SDK")

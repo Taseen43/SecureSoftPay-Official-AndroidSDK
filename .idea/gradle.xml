@@ -10,8 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/SecureSoftPay-SDK" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/secure-soft-pay-sdk" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -8,9 +8,6 @@
             android:name=".internal.PaymentActivity"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity
-            android:name=".TestPaymentActivity"
-            android:exported="false"
-            android:label="SDK Test Mode" />
     </application>
+
 </manifest>

@@ -30,6 +30,7 @@ dependencies {
     implementation("androidx.browser:browser:1.8.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation(libs.appcompat)
+    implementation("com.google.android.material:material:1.11.0")
 }
 
 afterEvaluate {
@@ -37,9 +38,9 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components.getByName("release"))
-                groupId = "com.github.SecureSoftPay" // <-- আপনার GitHub ইউজারনেম দিন
-                artifactId = "SecureSoftPay-Official-AndroidSDK" // <-- আপনার রিপোজিটরির নাম
-                version = "1.1.0" // <-- GitHub Release ট্যাগ দিয়ে এটি পরিবর্তিত হবে
+                groupId = "com.github.SecureSoftPay"
+                artifactId = "SecureSoftPay-Official-AndroidSDK"
+                version = "1.2.0"
             }
         }
     }

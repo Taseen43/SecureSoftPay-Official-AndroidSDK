@@ -37,9 +37,9 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components.getByName("release"))
-                groupId = "com.github.Taseen43" // <-- আপনার GitHub ইউজারনেম দিন
+                groupId = "com.github.SecureSoftPay" // <-- আপনার GitHub ইউজারনেম দিন
                 artifactId = "SecureSoftPay-Official-AndroidSDK" // <-- আপনার রিপোজিটরির নাম
-                version = "1.0.3" // <-- GitHub Release ট্যাগ দিয়ে এটি পরিবর্তিত হবে
+                version = "1.1.0" // <-- GitHub Release ট্যাগ দিয়ে এটি পরিবর্তিত হবে
             }
         }
     }
